@@ -433,7 +433,7 @@ export default function CasoDetalhePage() {
                           <AlertCircleIcon className="h-4 w-4 text-red-600" />
                           <div className="flex-1">
                             <p className="font-medium text-red-800 dark:text-red-200">Consumo Anômalo</p>
-                            <p className="text-xs text-red-600">Variação > 20% da média histórica</p>
+                            <p className="text-xs text-red-600">Variação {'>'}20% da média histórica</p>
                           </div>
                           <Badge variant="destructive">Crítica</Badge>
                         </div>
